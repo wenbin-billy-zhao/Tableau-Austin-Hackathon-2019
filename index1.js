@@ -1,9 +1,7 @@
 var viz;
 function initViz() {
-  // var url = url = "http://public.tableau.com/views/RegionalSampleWorkbook/Storms";
-  // var url = "https://10ax.online.tableau.com/t/utaustindataninjasdev320155/views/chart1/Story1";
   var url =
-    "https://10ax.online.tableau.com/t/utaustindataninjasdev320155/views/HackathonProjectStorylines/Story1";
+    "https://10ax.online.tableau.com/t/utaustindataninjasdev320155/views/ProjectTableau/StoryforALSpatients";
   var containerDiv = d3.select("#vizContainer").node();
   viz = new tableau.Viz(containerDiv, url);
 }
